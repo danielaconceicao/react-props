@@ -18,7 +18,7 @@ export default [
     {
         "id": 3,
         "title": "PHP: Introduzione al Server-Side Scripting",
-        "image": "/image/images(1).jpeg",
+        "image": "/image/jsphp.jpeg",
         "content": "PHP è un linguaggio di scripting lato server utilizzato per creare applicazioni web dinamiche. È comunemente usato in combinazione con database come MySQL.",
         "tags": ["js", "php"],
         "published": true,
