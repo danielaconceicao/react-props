@@ -1,9 +1,12 @@
 import style from './postsCards.module.css'
 
-export default function postsCards({data}){
-    return(
-     
-            <div className={style.cards}>
+export default function postsCards({ data }) {
+
+
+    return (
+
+        <div className={style.cards}>
+            {data.published === true &&
                 <div className="card">
                     <img src={data.image} alt="" />
                     <div className={style.cardbody}>
@@ -12,7 +15,8 @@ export default function postsCards({data}){
                         <span>{data.tags}</span>
                     </div>
                 </div>
-            </div>
-       
+            }
+        </div>
+
     )
 }
